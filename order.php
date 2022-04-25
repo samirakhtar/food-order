@@ -40,7 +40,7 @@
     ?>
 
     <!-- fOOD sEARCH Section Starts Here -->
-    <section class="food-search">
+    <section class="food-search" style="background: #00ff7f">
         <div class="container">
             
             <h2 class="text-center text-white">Fill this form to confirm your order.</h2>

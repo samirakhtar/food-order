@@ -25,10 +25,9 @@
                     unset($_SESSION['no-login-message']);
                 }
             ?>
-            <br><br>
 
             <!-- Login Form Starts HEre -->
-            <form action="" method="POST" class="text-center">
+            <form action="" method="POST">
             Username: <br>
             <input type="text" name="username" placeholder="Enter Username"><br><br>
 

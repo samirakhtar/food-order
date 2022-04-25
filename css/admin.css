@@ -39,7 +39,8 @@ table tr td{
 }
 
 .btn-primary{
-    background-color: #1e90ff;
+    background-color: #9421ff;
+    border-radius: 8px;
     padding: 1%;
     color: white;
     text-decoration: none;
@@ -50,20 +51,22 @@ table tr td{
 }
 
 .btn-secondary{
-    background-color: #7bed9f;
-    padding: 1%;
-    color: black;
+    background-color: #44c46c;
+    padding: 4%;
+    border-radius: 8px;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
 .btn-secondary:hover{
-    background-color: #2ed573;
+    background-color: #2cb465;
 }
 
 .btn-danger{
     background-color: #ff6b81;
-    padding: 1%;
+    padding: 4%;
     color: white;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -101,8 +104,9 @@ table tr td{
 
 /* CSS for main-content */
 .main-content{
-    background-color: #f1f2f6;
+    background-color: #d6dfff;
     padding: 3% 0;
+    min-height: calc(100vh - 182px);
 }
 
 .col-4{
@@ -122,8 +126,21 @@ table tr td{
 
 /* CSS for Login */
 .login{
-    border: 1px solid grey;
+    border: 1px solid rgb(158, 158, 158);
     width: 20%;
     margin: 10% auto;
-    padding: 2%;
+    border-radius: 4px;
+    padding: 3rem;
+}
+
+.login input {
+    width: 100%;
+    height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.login input[type="submit"] {
+    border: none;
+    cursor: pointer;
 }
